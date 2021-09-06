@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ecf0f3;
+    transition: 0.3s;
+}
+
+.container {
+    background: #ecf0f3;
+    height: auto;
+    width: 310px;
+    box-shadow: inset 5px 5px 12px #ffffff,
+        5px 5px 12px rgba(0, 0, 0, 0.16);
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+input {
+    width: 100%;
+    font-size: 20px;
+    box-shadow: inset -5px -5px 12px #ffffff,
+        5px 5px 12px rgba(0, 0, 0, 0.16);
+    outline: none;
+    border: none;
+    padding: 0px 15px;
+    text-shadow: 0px 0px 2px #181A18;
+    letter-spacing: 2px;
+    background: #ecf0f3;
+    margin-top: 0px;
+    border-radius: 30px;
+    height: 60px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    text-align: right;
+}
+
+.userInput {
+     width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    width: 45px;
+    height: 45px;
+    font-size: 19px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 10px;
+    box-shadow: inset -5px -5px 12px #ffffff,
+        5px 5px 12px rgba(0, 0, 0, 0.16);
+    border: none;
+    outline: none;
+}
+
+.dark {
+    background: #181A18;
+}
+
+.dark button {
+    border-radius: 50px;
+    background: #181A18;
+    box-shadow: inset -5px -5px 12px #141614,
+        inset 5px 5px 12px #1c1e1c;
+    color: #fff;
+
+}
+
+.dark input {
+    box-shadow: inset -5px -5px 12px #141614,
+        inset 5px 5px 12px #1c1e1c;
+     background: #181A18;
+    color: #fff;
+    text-shadow: 0px 0px 2px #fff;
+}
+
+.dark .container {
+    background: #181A18;
+    box-shadow: inset 5px 5px 12px #141614,
+        5px 5px 12px #1c1e1c;
+}
+
+.opera {
+    color: #ff6a00;
+    font-weight: 600;
+}
+
+.dark .opera {
+    color: #ff6a00;
+    font-weight: 600;
+}
+
+.dark h2 {
+    color: #fff;
+}
+
+#btn {
+    transition: 0.1s;
+    margin: 0;
+    width: 40px;
+    height: 40px;
+    font-size: 17px;
+}
+
+#atn {
+    transition: 0.1s;
+    margin: 0;
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+.head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
